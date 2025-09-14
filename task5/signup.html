@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form Example</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>
+                <font color="red">360Digrii</font><font color="black">Basket</font>
+            </h1>
+        </center>
+        <p align="middle">
+            <a href="index.html">Home</a> |
+            <a href="fruits.html">Fruits</a> |
+            <a href="flowers.html">Flowers</a> |
+             <a href="#">Sign up</a> |
+            <a href="signin.html">Sign in</a>
+        </p>
+    </header>
+    <form name="form1" action="serverurl" method="post">
+        <table align="center" bgcolor="silver" cellspacing="5px" cellpadding="5px">
+                 <caption><h3>Sign up</h3></caption>
+            <tr>
+                <td>
+                    <label for="fullname">Full Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fullname" name="fullname" placeholder="Type Full Name Here" required>
+                </td>
+            </tr>
+            <tr>
+                 <td>
+                    <label for="mobile number">Mobile Number</label>
+                </td>
+                <td>
+                    <select>
+                     <option value="+91">+91</option>
+                     <option value="+62">+62</option> 
+                     <option value="+92">+92</option>
+                     <option value="+66">+66</option>
+                     <option value="+1">+1</option>
+                     <option value="+44">+44</option> 
+                    </select>
+                    <input type="tel" id="mobile" name="mobilenumber" placeholder="Type Mobile Number Here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">PIN code</label>
+                </td>
+                <td>
+                    <input type="number" id="pincode" name="pincode" min="100000" max="999999" placeholder="Type PIN code Here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="Type Email Here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id1">UserId</label>
+                </td>
+                <td>
+                    <input type="text" id="id1" name="name1" placeholder="Type UserId Here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" placeholder="Type Password Here" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+                <td>
+                    <input type="reset" value="Erase">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
