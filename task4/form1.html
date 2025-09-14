@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Form Example</title>
+</head>
+
+<body>
+    <form name="form1" action="serverurl" method="post">
+        <table align="center" bgcolor="silver" cellspacing="5px" cellpadding="5px">
+            <caption><h3><p align="left">Registration Form</h3></caption></p>
+            <tr>
+                <td>
+                    <label for="firstname">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="firstname" name="firstname" required>
+                </td>
+                <td>
+                    <label for="Last Name">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="lastname" name="lastname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthday">Birthday</label>
+                </td>
+                <td>
+                    <input type="date" id="birthday" name="birthday" required >
+                </td>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" value="Male" id="male" name="gender" required> MALE
+                    <input type="radio" value="Female" id="female" name="gender" required> FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required>
+                </td>
+                <td>
+                    <label for="phonenumber">Phone number</label>
+                </td>
+                <td>
+                    <input type="tel" id="phonenumber" name="phonenumber" required>
+                </td>
+                </tr>
+                <tr>
+                <td>
+                    <label for="subject">Subject</label>
+                </td>
+                <td>
+                    <select>
+                    <option value="Choose option">Choose option</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Science">Science</option>
+                   </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
